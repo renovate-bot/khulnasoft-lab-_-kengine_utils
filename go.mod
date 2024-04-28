@@ -5,11 +5,11 @@ go 1.20
 require (
 	github.com/XSAM/otelsql v0.27.0
 	github.com/cenkalti/backoff/v4 v4.2.1
-	github.com/go-chi/jwtauth/v5 v5.3.0
+	github.com/go-chi/jwtauth/v5 v5.3.1
 	github.com/google/uuid v1.5.0
 	github.com/hibiken/asynq v0.24.1
 	github.com/jellydator/ttlcache/v3 v3.2.0
-	github.com/lestrrat-go/jwx/v2 v2.0.18
+	github.com/lestrrat-go/jwx/v2 v2.0.20
 	github.com/lib/pq v1.10.9
 	github.com/minio/minio-go/v7 v7.0.66
 	github.com/neo4j/neo4j-go-driver/v5 v5.17.0
