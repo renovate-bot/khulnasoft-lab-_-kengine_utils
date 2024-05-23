@@ -15,7 +15,7 @@ require (
 	github.com/neo4j/neo4j-go-driver/v5 v5.17.0
 	github.com/raito-io/neo4j-tracing v0.0.4
 	github.com/redis/go-redis/v9 v9.4.0
-	github.com/rs/zerolog v1.31.0
+	github.com/rs/zerolog v1.33.0
 	github.com/twmb/franz-go v1.15.4
 	github.com/twmb/franz-go/pkg/kadm v1.10.0
 	go.opentelemetry.io/otel v1.21.0
