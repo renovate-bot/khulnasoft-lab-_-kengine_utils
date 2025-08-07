@@ -1,6 +1,8 @@
 module github.com/khulnasoft-lab/kengine_utils
 
-go 1.20
+go 1.23.0
+
+toolchain go1.24.6
 
 require (
 	github.com/XSAM/otelsql v0.27.0
@@ -8,7 +10,7 @@ require (
 	github.com/go-chi/jwtauth/v5 v5.3.0
 	github.com/google/uuid v1.5.0
 	github.com/hibiken/asynq v0.24.1
-	github.com/jellydator/ttlcache/v3 v3.2.0
+	github.com/jellydator/ttlcache/v3 v3.4.0
 	github.com/lestrrat-go/jwx/v2 v2.0.18
 	github.com/lib/pq v1.10.9
 	github.com/minio/minio-go/v7 v7.0.66
@@ -58,7 +60,7 @@ require (
 	go.opentelemetry.io/otel/metric v1.21.0 // indirect
 	golang.org/x/crypto v0.21.0 // indirect
 	golang.org/x/net v0.23.0 // indirect
-	golang.org/x/sync v0.1.0 // indirect
+	golang.org/x/sync v0.15.0 // indirect
 	golang.org/x/sys v0.18.0 // indirect
 	golang.org/x/text v0.14.0 // indirect
 	golang.org/x/time v0.0.0-20190308202827-9d24e82272b4 // indirect
